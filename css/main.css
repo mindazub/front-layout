@@ -1,0 +1,59 @@
+body {
+    background: antiquewhite;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 15px;
+}
+
+.logo {
+    border: 1px solid magenta;
+    background: pink;
+
+}
+
+.nav {
+    border: 1px solid blueviolet;
+    background: yellowgreen;
+}
+
+.header {
+    width: 100%;
+    border: 1px solid black;
+    background: #345321;
+}
+
+.header-h1 {
+    position: absolute;
+}
+.header-main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 960px;
+    background: rebeccapurple;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo, .nav {
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.footer {
+    width: 100%;
+    border: 1px solid black;
+    height: 200px;
+    background: violet;
+}
+
+.main {
+    width: 958px;
+    border: 1px solid green;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: yellow;
+}
